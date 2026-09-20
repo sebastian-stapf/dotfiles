@@ -1,0 +1,8 @@
+# Keep private credentials out of this dotfiles repository.
+.ssh/*
+!.ssh/config
+!.ssh/*.pub
+.netrc
+.env
+.env.*
+!.env.example
